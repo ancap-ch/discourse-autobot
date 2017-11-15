@@ -1,7 +1,7 @@
 
 module Jobs
   class CampaignsHandler < Jobs::Scheduled
-    every 5.minutes
+    every 30.minutes
 
     sidekiq_options retry: false
 
